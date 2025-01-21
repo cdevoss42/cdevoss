@@ -1,0 +1,252 @@
+/**/
+
+
+body{
+   background: linear-gradient(-95deg, #212122, #050301);
+   box-sizing: border-box;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tablemain {
+   border: 5px solid black;
+       padding: 10px;
+    text-align: center;
+    margin-left: auto;
+   margin-right: auto;
+ }
+
+a:link {
+    color:aliceblue;
+    font-size: 30px;
+}
+
+a:visited {
+    color:aqua;
+    font-size: 30px;
+}
+
+p {
+    color: aliceblue;
+    text-indent: 30px;
+    
+  }
+
+h1 {
+    color:aliceblue
+}  
+
+h2 {
+    color:aliceblue
+}  
+
+table.main th,td {
+    border: 1px solid vampireblack;
+    padding: 10px;
+    text-align: center;
+    }
+
+ .big-e { 
+    font-size: 5em; 
+ } 
+
+ h1.podcast{
+    font-family: 'Courier New';
+
+ }
+ 
+ 
+ th.podcast, td.podcast {
+    background-color: #96D4D4;
+    text-align: center;
+
+  }
+
+  p.white {
+    color: aliceblue;
+  }
+
+  p.center{
+    text-align: center;
+  }
+
+  a.podcast:link {
+    color:yellow;
+    font-size: 20px;
+ }
+
+ th.main {
+    
+    color: aliceblue;
+ }
+
+ td.poetry {
+    color: aliceblue;
+ }
+
+ td.links {
+    color: aliceblue;
+ }
+
+ caption.poetry {
+    color: aliceblue;
+ }
+
+ .center { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; }
+
+.poetry2 {
+      border: 5px solid white;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: x-large;
+      font-display: white;
+    }
+
+td.poetry2 {
+   border: 1px solid white;
+}
+
+.poem {
+   font-size: x-large;
+   font-display: white;
+}
+
+.signature {
+   text-align: right;
+   font-display: white;
+}
+
+.poemtitle {
+   font-size: 30px;
+   font-display: white;
+      
+  }
+ 
+.white {
+   color:aliceblue;
+}
+
+.input-large { 
+   width: 500px; 
+   columns: 20;
+ }
+
+ .padded-box { 
+   padding: 20px; /* Padding around the image */ 
+   border: 10px solid black; /* Border around the padded box */ 
+   background-color: #f0f0f0; /* Background color of the padded box */ 
+   display: inline-block; /* Ensure the box fits around the image */
+   margin-left: auto;
+   margin-right: auto;  
+   height: 50px;
+   width: 50px;
+}
+
+.centersocial {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 20%; 
+    height: 30%;
+ }
+
+ .treepicture{
+   display: block; 
+   margin-left: auto; 
+   margin-right: auto;
+   border: solid white;
+ }
+
+ @keyframes floatIn {
+   from {
+       transform: translateX(-100%);
+       opacity: 0;
+   }
+   to {
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+
+#floatingText {
+   position: absolute;
+   top: 50%;
+   left: 0;
+   font-size: 24px;
+   animation: floatIn 2s forwards;
+   animation-delay: 7s;
+   opacity: 0;
+   color: white
+}
+
+.tablemain {
+   border: 5px solid black;
+       padding: 20px;
+    text-align: center;
+    margin-left: auto;
+   margin-right: auto;
+ }
+
+ .nav-container { 
+   width: 100%; 
+   background-color: #333; 
+   position: fixed; 
+   top: 0; left: 0; 
+   z-index: 1000;
+} 
+   
+   .navigation { 
+       display: flex; 
+       justify-content: center; 
+       padding: 10px 0; 
+   } 
+   
+   .navigation ul { 
+       list-style: none; 
+       margin: 0; 
+       padding: 0; 
+       display: flex; 
+       gap: 20px; 
+   }
+   
+   .navigation li { 
+       margin: 0; 
+   }
+    .navigation a 
+    { color: white; 
+       text-decoration: none;
+        font-size: 18px; 
+        padding: 10px; 
+       }
+       
+       .navigation a:hover { 
+           background-color: #575757; 
+           border-radius: 5px
+       }
+
+       
+       .welcome {
+         background-color: #1b1b1b;
+         box-sizing: border-box;
+         padding: 40px;
+         text-align: center;
+         width: 100%;
+       }
+
+       .button {
+         background-color: #100c08;
+         box-sizing: border-box;
+         padding: 40px;
+         text-align: center;
+         image-orientation: inherit;
+         width: 100%;
+       }
+ 
